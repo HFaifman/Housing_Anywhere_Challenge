@@ -9,4 +9,4 @@ A couple of considerations:
 ## Technical debt:
 
 It´s been an hectic week. I´ve unit tested most components, but I couldn´t do an integration test
-on App to see if everything put together was working properly.
+on App to see if everything put together was working properly. I just couldn´t find the time and I do apologise for that.
