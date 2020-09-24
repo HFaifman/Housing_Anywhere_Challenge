@@ -40,7 +40,7 @@ const Card = ({ character, style }: ICardProps) => {
   const mappedEpisodes = episodes.map((item: Episode) => item.name);
 
   return (
-    <StyledArticle style={{ ...style }}>
+    <StyledArticle tabIndex={0} style={{ ...style }}>
       <div>
         <StyledImg src={image} alt={name} />
       </div>
