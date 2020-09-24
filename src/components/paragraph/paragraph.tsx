@@ -27,11 +27,11 @@ const Paragraph = ({
   underline,
   title,
   titleStyle,
-  fallBackText,
+  fallBackText = "Unknown",
 }: IParagraphProps) => (
   <StyledParagraph text={text} style={{ ...style }} underline={underline}>
     {title && <StyledSpan style={{ ...titleStyle }}>{title}</StyledSpan>}
-    {text && text.length ? text : fallBackText || "Unknown"}
+    {text && text.length ? text : fallBackText}
   </StyledParagraph>
 );
 export default Paragraph;
